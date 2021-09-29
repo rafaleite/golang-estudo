@@ -5,6 +5,11 @@
 *.so
 *.dylib
 
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+
+
 # Test binary, built with `go test -c`
 *.test
 
@@ -13,3 +18,21 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+
+# Architecture specific extensions/prefixes
+*.[568vq]
+[568vq].out
+
+*.cgo1.go
+*.cgo2.c
+_cgo_defun.c
+_cgo_gotypes.go
+_cgo_export.*
+
+_testmain.go
+
+# Folders
+_obj
+_test
+
+.idea/
